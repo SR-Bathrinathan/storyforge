@@ -42,11 +42,7 @@ StoryForge is an AI-powered storytelling appliclication that generates unique sh
    ```
 
 4. Set up your environment variables:
-   - Copy the `.env.example` file and rename it to `.env`:
-     ```sh
-     cp .env.example .env
-     ```
-   - Open `.env` and add your API keys:
+    Open `.env` and add your API keys:
      ```sh
      OPENAI_API_KEY=your_openai_api_key_here
      HUGGINGFACE_API_KEY=your_huggingface_api_key_here
@@ -62,15 +58,13 @@ streamlit run src/app.py
 
 ### How It Works
 1. Select the **genre**, **tone**, **mood**, and **point of view** for your story.
-2. Enter a scenario or idea for the story.
-3. Click **"Generate Story"** to create a unique short story.
-4. Extract key events by clicking the **"Generate Key Events"** button.
-5. Generate an image based on the story context.
-6. Convert the story into an audio format for listening.
+2. Select the number of charecters and add their details. 
+3. Click **"Generate Story"** to create a unique short story, whose audio and key-event images are generated
+4. The generated contents are finally displayed.
 
 ## Contributing
 Pull requests are welcome! If you'd like to improve StoryForge, please fork the repository and submit a PR.
 
 ## License
-This project is licensed under the Unlicense License.
+This project is licensed under The Unlicense License.
 For more information, please refer to <http://unlicense.org/>
